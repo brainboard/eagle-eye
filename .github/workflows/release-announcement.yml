@@ -9,7 +9,7 @@ jobs:
   notify_discord:
     runs-on: ubuntu-latest
 
-    name: Sends message
+    name: Send discord message
     steps:
       - uses: nhevia/discord-styled-releases@v1.2.3
         with:
