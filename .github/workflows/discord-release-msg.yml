@@ -1,0 +1,17 @@
+name: Release announcement
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  notify_discord:
+    runs-on: ubuntu-latest
+
+    name: Sends message
+    steps:
+      - uses: nhevia/discord-styled-releases@v1.2.3
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
