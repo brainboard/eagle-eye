@@ -9,8 +9,8 @@ The tool can be used locally or in a CI/CD pipeline to generate a diagram of you
 
 > Hi everyone,
 > 
-> Unfortunately, due to lack of resources on our side, we decided to pause the project eagle-eye to fully focus on Brainboard.co.
-> We will get back one day but for now, we will shut down the infrastructure.
+> Unfortunately, due to priority change, we decided to pause the project eagle-eye to fully focus on Brainboard.co.
+> We will get back to it one day but for now, we will shut down the infrastructure.
 > 
 > Keep following us via Brainboard 🙂
 > 
